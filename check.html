@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkered Pattern</title>
+  <style>
+    .checkerboard {
+      display: grid;
+      grid-template-columns: repeat(8, 40px); /* 8 columns */
+      grid-template-rows: repeat(8, 40px);    /* 8 rows */
+      border: 2px solid black;
+      width: fit-content;
+      margin: 50px auto;
+    }
+
+    .square {
+      width: 40px;
+      height: 40px;
+    }
+
+    .black {
+      background-color: black;
+    }
+
+    .pink {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div class="checkerboard">
+    <!-- Generate 64 squares (8x8) -->
+    <!-- Use a loop in a backend language or JS to simplify this in real cases -->
+    <!-- For this static version, just alternating manually -->
+    <!-- Row-wise alternation -->
+    <!-- Even rows: start with black, odd rows: start with pink -->
+    <!-- Each row has 8 squares -->
+    <!-- Total 64 squares -->
+    <!-- You can generate this in JS if needed -->
+
+    <!-- Row 1 -->
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+
+    <!-- Row 2 -->
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+
+    <!-- Repeat this alternating pattern for rows 3 to 8 -->
+    <!-- You can copy and paste the above two rows 3 more times -->
+
+    <!-- Row 3 -->
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+
+    <!-- Row 4 -->
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+
+    <!-- Row 5 -->
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+
+    <!-- Row 6 -->
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+
+    <!-- Row 7 -->
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+
+    <!-- Row 8 -->
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+    <div class="square pink"></div>
+    <div class="square black"></div>
+  </div>
+</body>
+</html>
